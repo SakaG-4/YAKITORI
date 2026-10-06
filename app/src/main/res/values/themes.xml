@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Yakitori" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/yakitori_orange</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/yakitori_orange_dark</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+    </style>
+
+    <style name="Theme.Yakitori" parent="Base.Theme.Yakitori" />
+
+    <style name="Theme.Yakitori.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

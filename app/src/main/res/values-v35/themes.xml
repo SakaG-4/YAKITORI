@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 画面レイアウトは従来のシステムバー領域外配置を前提とする -->
+    <style name="Theme.Yakitori" parent="Base.Theme.Yakitori">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_category_browser">
+
+        <EditTextPreference
+            app:defaultValue="https://www.google.com/"
+            app:iconSpaceReserved="false"
+            app:key="homepage"
+            app:title="@string/pref_homepage"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="google"
+            app:entries="@array/search_engine_names"
+            app:entryValues="@array/search_engine_values"
+            app:iconSpaceReserved="false"
+            app:key="search_engine"
+            app:title="@string/pref_search_engine"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="home"
+            app:entries="@array/new_tab_names"
+            app:entryValues="@array/new_tab_values"
+            app:iconSpaceReserved="false"
+            app:key="new_tab_page"
+            app:title="@string/pref_new_tab"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="download_confirm"
+            app:summary="@string/pref_download_confirm_summary"
+            app:title="@string/pref_download_confirm" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_category_privacy">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="history"
+            app:title="@string/history" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="clear_data"
+            app:title="@string/clear_data_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="incognito_block_screenshots"
+            app:summary="@string/pref_incognito_secure_summary"
+            app:title="@string/pref_incognito_secure" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_category_autofill">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="autofill"
+            app:title="@string/pref_autofill" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_category_profiles">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="profiles"
+            app:summary="@string/pref_profiles_summary"
+            app:title="@string/profiles_manage" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_category_other">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="about"
+            app:selectable="false"
+            app:title="@string/pref_about" />
+    </PreferenceCategory>
+</PreferenceScreen>

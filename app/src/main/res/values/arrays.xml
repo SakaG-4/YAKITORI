@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engine_names">
+        <item>Google</item>
+        <item>Bing</item>
+        <item>DuckDuckGo</item>
+        <item>Yahoo! JAPAN</item>
+    </string-array>
+    <string-array name="search_engine_values">
+        <item>google</item>
+        <item>bing</item>
+        <item>duckduckgo</item>
+        <item>yahoo_jp</item>
+    </string-array>
+    <string-array name="new_tab_names">
+        <item>ホームページを開く</item>
+        <item>空白ページ</item>
+    </string-array>
+    <string-array name="new_tab_values">
+        <item>home</item>
+        <item>blank</item>
+    </string-array>
+</resources>
